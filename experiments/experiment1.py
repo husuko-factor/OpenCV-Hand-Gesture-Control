@@ -7,6 +7,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import pairwise
 
+
+
 cap=cv2.VideoCapture(0)
 i=0
 _,frame=cap.read()
